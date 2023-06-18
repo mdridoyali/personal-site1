@@ -1,0 +1,161 @@
+
+
+/* for laptop */
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 42.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+.nav-logo{
+    text-align: left;
+
+}
+.nav-heading h1{
+    text-align: right;
+
+}
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-menu a{
+    padding: 5px 10px;
+    margin: 20px 5px;
+    background-color: transparent;
+}
+ /* navbar end here */
+
+
+
+ /* profile desige start here */
+ .profile .top-weather-icon{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    width: 100px;
+    transition: width 2s, transform 2s;
+ }
+ .profile .top-weather-icon:hover{
+    width:150px ;
+
+}
+ .profile .bottom-weather-icon{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    width: 100px;
+    transition: width 2s, transform 2s;
+ }
+ .profile .bottom-weather-icon:hover{
+    width:150px ;
+
+}
+.profile-desc p{
+    color: rgb(83, 79, 79);
+    margin: 0px auto 40px auto;
+    text-align: center;
+    width: 55%;
+}
+
+ /* profile desige end here */
+
+
+
+
+ /* about me design starts here */
+ .aboutme-image img{
+    margin-top: 100px;
+    height: 300px;
+    width: 270px;
+    
+ }
+.aboutme-desc p{
+    text-align: left;
+}
+
+ /* about me design end here */
+
+
+
+
+ /* professional experience starts here */
+.professionan-experience{
+    padding: 1% 5%;
+}
+ /* professional experience ends here */
+
+
+
+
+
+
+/* achievment-contact start here */
+.achievement{
+    padding-right: 90px;
+}
+
+.contact button{
+    border: none;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    margin-top: 5px;
+    cursor: pointer;
+    
+}
+
+
+
+.contact-links{
+    text-align: center;
+    width: 250px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.media-button .btn{
+    border: none;
+    font-size: 50px;
+    padding: 10px;
+    margin: 15px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: gray;
+    /* opacity: 10%; */
+}
+
+/* achievment-contact end here */
+
+
+
+
+
+
+
+/* Footer starts from here */
+.footer-menu{
+    margin-top:12px ;
+}
+.footer-menu a{
+    display: inline;
+    padding: 20px;
+    
+}
+
+
+/* Footer ends from here */
